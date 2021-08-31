@@ -12,7 +12,7 @@ function look_For_Titles(channel) {
     await page.waitForSelector(".ytd-channel-renderer");
     await page.click(".ytd-channel-renderer #avatar #img");
     await page.waitForSelector("#tabsContent > tp-yt-paper-tab:nth-child(4)");
-    /* PARA CANALES DONDE SALTA EL POP UP DE UNIRSE AL CANAL, ACTIVA ESTO */ /* PARA CANALES DONDE SALTA EL POP UP DE UNIRSE AL CANAL, ACTIVA ESTO */
+    /* PARA CANALES DONDE SALTA EL POP UP DE UNIRSE AL CANAL, ACTIVA ESTO */
     /*await page.click("#accept-button");*/
     await page.click("#tabsContent > tp-yt-paper-tab:nth-child(4)");
     await page.waitForSelector("ytd-grid-renderer");
