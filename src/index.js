@@ -7,7 +7,7 @@ function look_For_Titles(channel) {
     await page.goto("https://www.youtube.com/");
     await page.waitForSelector(".ytd-searchbox");
     await page.click(".ytd-searchbox");
-    await page.type(".ytd-searchbox", youtuber);
+    await page.type(".ytd-searchbox", channel);
     await page.click("#search-icon-legacy");
     await page.waitForSelector(".ytd-channel-renderer");
     await page.click(".ytd-channel-renderer #avatar #img");
