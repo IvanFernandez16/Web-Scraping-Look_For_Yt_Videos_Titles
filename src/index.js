@@ -32,4 +32,4 @@ function look_For_Titles(channel) {
   })();
 }
 
-look_For_Titles("coderhood");
+look_For_Titles("Coderhood");
