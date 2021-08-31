@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
 
-function look_For_Titles(youtuber) {
+function look_For_Titles(channel) {
   (async () => {
     const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
