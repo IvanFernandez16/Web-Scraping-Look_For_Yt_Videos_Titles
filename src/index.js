@@ -21,13 +21,11 @@ function look_For_Titles(channel) {
         "#contents > ytd-grid-renderer #video-title"
       );
       const titles = [];
-
       for (let element of elements) {
         titles.push(element.innerText);
       }
       return titles;
     });
-
     console.log(titulos);
   })();
 }
